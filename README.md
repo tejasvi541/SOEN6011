@@ -1,9 +1,7 @@
 ---
 author:
   - Tejasvi
-date: 1970-01-01
-title: Software Requirements Specification for the Standard Deviation
-  Function
+date: 04/07/2024
 ---
 
 ::: titlepage
