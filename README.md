@@ -4,8 +4,7 @@ author:
 date: 04/07/2024
 ---
 
-::: titlepage
-![image](University_logo.jpg){width="100%"}
+![image](University_logo.jpg)
 
 **SOEN 6011 (Software Engineering Processes)**
 
@@ -13,8 +12,7 @@ date: 04/07/2024
 
 _Tejasvi_
 
-Student ID: 40292854
-:::
+_Student ID: 40292854_
 
 # Introduction
 
