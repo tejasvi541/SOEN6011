@@ -1,0 +1,108 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\title{Software Requirements Specification for the Standard Deviation Function}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \includegraphics[width=1\textwidth]{University_logo.jpg}\par\vspace{1cm} 
+    {\huge\bfseries SOEN 6011 (Software Engineering Processes) \par}
+    \vspace{2cm}
+    {\huge\bfseries Eternity - $\sigma$ (Standard Deviation function) \par}
+    \vspace{2cm}
+    {\huge\itshape Tejasvi\par}
+    \vspace{0.5cm}
+    Student ID: 40292854\par
+    \vfill
+    {\large \today\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+This document presents a detailed Software Requirements Specification (SRS) for the standard deviation function, following the ISO/IEC/IEEE 29148 Standard as per the course guidelines. The standard deviation function is denoted as :
+\[
+\sigma = \sqrt{(\frac{1}{N}\sum_{i=1}^{N}(x_i - \mu)^2)}
+\]
+
+\section{Scope}
+The software to be designed will compute the standard deviation of a set of real numbers (possibly array of ints/floats) in Java Programming Language. The software will be used in scientific computing applications.
+
+\section{Definitions, Acronyms, and Abbreviations}
+\begin{itemize}
+\item \textbf{SRS:} Software Requirements Specification
+\item \textbf{$\sigma$:} Standard deviation function
+\end{itemize}
+
+\section{Functional Requirements}
+
+\subsection{Input Requirements}
+\begin{itemize}
+\item \textbf{FR1:} The function must accept a list of real numbers as input.
+\item \textbf{FR2:} The function must validate the input to ensure it is a list of real numbers.
+\end{itemize}
+
+\subsection{Processing Requirements}
+\begin{itemize}
+\item \textbf{FR3:} The function must calculate the mean of the input numbers.
+\item \textbf{FR4:} The function must calculate the variance of the input numbers using the formula:
+\[
+\sigma^2 = \frac{1}{N}\sum_{i=1}^{N}(x_i - \mu)^2
+\]
+where $N$ is the number of input numbers, $x_i$ is an input number, and $\mu$ is the mean of the input numbers.
+\end{itemize}
+
+\subsection{Output Requirements}
+\begin{itemize}
+\item \textbf{FR5:} The function must calculate the standard deviation by taking the square root of the variance.
+\item \textbf{FR6:} The function must return the standard deviation as a real number.
+\end{itemize}
+
+\section{Non-Functional Requirements}
+
+\begin{itemize}
+\item \textbf{NFR1:} The function must handle large lists of numbers efficiently.
+\item \textbf{NFR2:} The function must return accurate results up to a reasonable precision.
+\item \textbf{NFR3:} The function must provide error messages for invalid inputs.
+\end{itemize}
+
+\section{Assumptions and Dependencies}
+\begin{itemize}
+\item \textbf{A1:} It is assumed that the input list is not empty.
+\item \textbf{A2:} It is assumed that the input numbers are real numbers.
+\end{itemize}
+
+\section{Algorithm for Standard Deviation Calculation}
+
+\begin{enumerate}
+\item Initialize a variable `sum` to 0.
+\item For each number `x` in the list of numbers:
+    \begin{itemize}
+    \item Add `x` to `sum`.
+    \end{itemize}
+\item Calculate the mean `mu` ($\mu$) by dividing `sum` by the number of elements `N` in the list (N is assumed to be greater than 0).
+\item Initialize a variable `varianceSum` to 0.
+\item For each number `x` in the list of numbers:
+    \begin{itemize}
+    \item Subtract `mu` from `x` to get `diff`.
+    \item Square `diff` to get `squaredDiff`.
+    \item Add `squaredDiff` to `varianceSum`.
+    \end{itemize}
+\item Calculate the variance by dividing `varianceSum` by `N`.
+\item Calculate the standard deviation `sigma` by taking the square root of the variance.
+\end{enumerate}
+
+\section{References}
+\begin{itemize}
+\item ISO/IEC/IEEE 29148:2018 - Systems and software engineering -- Life cycle processes -- Requirements engineering.
+\item Standard deviation (2024) Wikipedia. Available at: \url{https://en.wikipedia.org/wiki/Standard_deviation} (Accessed: 04 July 2024).
+\end{itemize}
+
+\end{document}
