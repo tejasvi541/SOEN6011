@@ -7,7 +7,7 @@
     <list default="true" id="5e395873-86cc-4345-b906-fc7e727a6779" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/soen6011/StandardDeviationGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/soen6011/StandardDeviationGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <recent name="org.soen6011" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StandardDeviationTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.soen6011.Main" />
       <module name="eternity" />
@@ -96,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StandardDeviationTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StandardDeviationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +111,7 @@
       <updated>1720570466075</updated>
       <workItem from="1720570467724" duration="7706000" />
       <workItem from="1720751722350" duration="30000" />
-      <workItem from="1721420631307" duration="5745000" />
+      <workItem from="1721420631307" duration="9277000" />
     </task>
     <servers />
   </component>

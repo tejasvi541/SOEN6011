@@ -18,7 +18,7 @@ public class StandardDeviationGUI {
 
     private void initialize() {
         frame = new JFrame();
-        frame.setBackground(Color.getHSBColor(194, 30, 100));
+        frame.setBackground(Color.lightGray);
         frame.setBounds(550, 400, 450, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(null);
@@ -32,7 +32,6 @@ public class StandardDeviationGUI {
         textField.setBounds(10, 36, 414, 25);
         frame.getContentPane().add(textField);
         textField.setColumns(15);
-
         JButton btnCalculate = new JButton("Calculate Standard Deviation");
         btnCalculate.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent arg0) {
@@ -46,7 +45,7 @@ public class StandardDeviationGUI {
                     textArea.setText("Numbers: " + Arrays.toString(numbers) + "\nStandard Deviation: " + standardDeviation);
                     textField.setText(""); // clear the input
                 } catch (Exception e) {
-                    textArea.setText("Invalid input. Please enter a list of real numbers separated by commas.");
+                    textArea.setText("Invalid/Empty input. Please enter a list of real numbers separated by commas.");
                     textField.setText("");
 
                 }
@@ -54,7 +53,6 @@ public class StandardDeviationGUI {
         });
         btnCalculate.setBounds(10, 67, 414, 23);
         frame.getContentPane().add(btnCalculate);
-
         textArea = new JTextArea();
         textArea.setBounds(10, 101, 414, 149);
         frame.getContentPane().add(textArea);
