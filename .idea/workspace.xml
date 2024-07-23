@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e395873-86cc-4345-b906-fc7e727a6779" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -43,6 +45,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "W:/SOEN6011",
     "node.js.detected.package.eslint": "true",
@@ -52,7 +57,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.soen6011" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StandardDeviationTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.soen6011.Main" />
       <module name="eternity" />
@@ -66,8 +79,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StandardDeviationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eternity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.soen6011.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.soen6011" />
+      <option name="MAIN_CLASS_NAME" value="org.soen6011.StandardDeviationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StandardDeviationTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -82,7 +111,7 @@
       <updated>1720570466075</updated>
       <workItem from="1720570467724" duration="7706000" />
       <workItem from="1720751722350" duration="30000" />
-      <workItem from="1721420631307" duration="4402000" />
+      <workItem from="1721420631307" duration="5745000" />
     </task>
     <servers />
   </component>
