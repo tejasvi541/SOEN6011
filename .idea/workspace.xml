@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5e395873-86cc-4345-b906-fc7e727a6779" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/soen6011/StandardDeviationGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/soen6011/StandardDeviationGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D1PPT.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/D1PPT.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,24 +39,24 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "W:/SOEN6011",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;W:/Concordia/Summer2024/COMP6231/fruit-month-price&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -110,7 +111,9 @@
       <updated>1720570466075</updated>
       <workItem from="1720570467724" duration="7706000" />
       <workItem from="1720751722350" duration="30000" />
-      <workItem from="1721420631307" duration="12415000" />
+      <workItem from="1721420631307" duration="14710000" />
+      <workItem from="1722016073989" duration="39000" />
+      <workItem from="1722386556952" duration="627000" />
     </task>
     <servers />
   </component>
