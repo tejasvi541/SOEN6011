@@ -2,6 +2,8 @@ package org.soen6011;
 
 import static org.junit.Assert.*;
 
+import org.soen6011.backend.StandardDeviation;
+
 public class StandardDeviationTest {
 
 

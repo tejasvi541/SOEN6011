@@ -1,6 +1,7 @@
 package org.soen6011;
 
 import java.awt.EventQueue;
+import org.soen6011.gui.StandardDeviationGUI;
 
 /**
  * Main Class of the Eternity

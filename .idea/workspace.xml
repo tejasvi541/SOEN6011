@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e395873-86cc-4345-b906-fc7e727a6779" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/soen6011/StandardDeviationGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/soen6011/StandardDeviationGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,11 +112,26 @@
       <workItem from="1720751722350" duration="30000" />
       <workItem from="1721420631307" duration="14710000" />
       <workItem from="1722016073989" duration="39000" />
-      <workItem from="1722386556952" duration="5166000" />
+      <workItem from="1722386556952" duration="6932000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/soen6011/StandardDeviation.java</url>
+          <line>26</line>
+          <properties class="org.soen6011.StandardDeviation" method="findSqrt">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

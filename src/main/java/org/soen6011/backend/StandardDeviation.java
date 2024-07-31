@@ -1,4 +1,4 @@
-package org.soen6011;
+package org.soen6011.backend;
 
 // StandardDeviation.java
 public class StandardDeviation {
