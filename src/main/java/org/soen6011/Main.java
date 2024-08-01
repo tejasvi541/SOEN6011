@@ -7,7 +7,7 @@ import org.soen6011.gui.StandardDeviationGUI;
  * Main Class of the Eternity
  *
  * @author Tejasvi
- * @version 2.2.1
+ * @version 2.2.2
  */
 public class Main {
 

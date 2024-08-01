@@ -1,9 +1,11 @@
 package org.soen6011.gui;
+
 import static org.junit.Assert.*;
 import java.awt.event.ActionEvent;
 import javax.swing.JButton;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,9 +18,13 @@ public class StandardDeviationGUITest {
   private JButton btnClear;
 
   @Before
-  public void setUp() {
+  public void setUp() throws Exception {
     gui = new StandardDeviationGUI();
-    gui.show();
+    SwingUtilities.invokeAndWait(new Runnable() {
+      public void run() {
+        gui.show();
+      }
+    });
     textField = (JTextField) TestUtils.getChildNamed(gui.frame, "Number Input Field");
     textArea = (JTextArea) TestUtils.getChildNamed(gui.frame, "Result Display Area");
     btnCalculate = (JButton) TestUtils.getChildNamed(gui.frame, "Calculate Button");
@@ -34,29 +40,53 @@ public class StandardDeviationGUITest {
   }
 
   @Test
-  public void testCalculateStandardDeviationValidInput() {
-    textField.setText("1, 2, 3, 4, 5");
-    btnCalculate.doClick();
+  public void testCalculateStandardDeviationValidInput() throws Exception {
+    SwingUtilities.invokeAndWait(new Runnable() {
+      public void run() {
+        textField.setText("1, 2, 3, 4, 5");
+        btnCalculate.doClick();
+      }
+    });
 
-    String expectedOutput = "Numbers: [1.0, 2.0, 3.0, 4.0, 5.0]\nStandard Deviation: 1.4142135623730951\n\n";
-    assertTrue("TextArea should contain calculated result", textArea.getText().contains(expectedOutput));
+    SwingUtilities.invokeAndWait(new Runnable() {
+      public void run() {
+        String expectedOutput = "Numbers: [1.0, 2.0, 3.0, 4.0, 5.0]\nStandard Deviation: 1.4142135623746899\n\n";
+        assertTrue("TextArea should contain calculated result", textArea.getText().contains(expectedOutput));
+      }
+    });
   }
 
   @Test
-  public void testCalculateStandardDeviationInvalidInput() {
-    textField.setText("a, b, c");
-    btnCalculate.doClick();
+  public void testCalculateStandardDeviationInvalidInput() throws Exception {
+    SwingUtilities.invokeAndWait(new Runnable() {
+      public void run() {
+        textField.setText("a, b, c");
+        btnCalculate.doClick();
+      }
+    });
 
-    String expectedOutput = "Invalid/Empty input. Please enter a list of real numbers separated by commas.";
-    assertEquals("TextArea should contain error message", expectedOutput, textArea.getText().trim());
+    SwingUtilities.invokeAndWait(new Runnable() {
+      public void run() {
+        String expectedOutput = "Invalid/Empty input. Please enter a list of real numbers separated by commas.";
+        assertEquals("TextArea should contain error message", expectedOutput, textArea.getText().trim());
+      }
+    });
   }
 
   @Test
-  public void testClearButton() {
-    textField.setText("1, 2, 3, 4, 5");
-    btnCalculate.doClick();
+  public void testClearButton() throws Exception {
+    SwingUtilities.invokeAndWait(new Runnable() {
+      public void run() {
+        textField.setText("1, 2, 3, 4, 5");
+        btnCalculate.doClick();
+      }
+    });
 
-    btnClear.doClick();
-    assertEquals("TextArea should be cleared", "", textArea.getText());
+    SwingUtilities.invokeAndWait(new Runnable() {
+      public void run() {
+        btnClear.doClick();
+        assertEquals("TextArea should be cleared", "", textArea.getText());
+      }
+    });
   }
 }

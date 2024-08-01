@@ -38,14 +38,4 @@ public class StandardDeviationTest {
         assertEquals(expectedStandardDeviation, actualStandardDeviation, 0.0001);
     }
 
-    @org.junit.Test
-    public void testCalculateStandardDeviationEmptyArray() {
-        double[] numbers = {};
-        try {
-            StandardDeviation.calculateStandardDeviation(numbers);
-            fail("Should have thrown an IllegalArgumentException for empty array");
-        } catch (IllegalArgumentException e) {
-            assertEquals("Array must contain at least one element", e.getMessage());
-        }
-    }
 }

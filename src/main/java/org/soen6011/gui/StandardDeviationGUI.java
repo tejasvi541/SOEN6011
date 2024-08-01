@@ -12,6 +12,10 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import org.soen6011.backend.StandardDeviation;
 
+/**
+ * This class creates a GUI for calculating the standard deviation of a series of numbers.
+ * @author Tejasvi
+ */
 public class StandardDeviationGUI {
 
   JFrame frame;
@@ -21,10 +25,16 @@ public class StandardDeviationGUI {
   private int index = 0;
   private StringBuilder history = new StringBuilder();
 
+  /**
+   * Constructs a new StandardDeviationGUI and initializes the components.
+   */
   public StandardDeviationGUI() {
     initialize();
   }
 
+  /**
+   * Initializes the contents of the frame.
+   */
   private void initialize() {
     frame = new JFrame();
     frame.setBackground(Color.lightGray);
@@ -81,21 +91,25 @@ public class StandardDeviationGUI {
     btnClear.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent arg0) {
         textArea.setText(""); // clear the text area
+        history.setLength(0); // clear the history
       }
     });
-    btnClear.setBounds(10, 67, 414, 23);
+    btnClear.setBounds(10, 101, 414, 23); // Adjusted position to not overlap with btnCalculate
     frame.getContentPane().add(btnClear);
     btnClear.getAccessibleContext().setAccessibleName("Clear Button");
     btnClear.getAccessibleContext().setAccessibleDescription("Button to clear the result display area.");
 
     textArea = new JTextArea();
     JScrollPane scrollPane = new JScrollPane(textArea); // wrap the text area in a scroll pane
-    scrollPane.setBounds(10, 101, 414, 149);
+    scrollPane.setBounds(10, 135, 414, 115); // Adjusted bounds to accommodate the buttons
     frame.getContentPane().add(scrollPane); // add the scroll pane to the frame
     textArea.getAccessibleContext().setAccessibleName("Result Display Area");
     textArea.getAccessibleContext().setAccessibleDescription("Area to display the result of the standard deviation calculation.");
   }
 
+  /**
+   * Makes the frame visible.
+   */
   public void show() {
     frame.setVisible(true);
   }

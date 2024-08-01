@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e395873-86cc-4345-b906-fc7e727a6779" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/soen6011/StandardDeviationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/soen6011/StandardDeviationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/soen6011/gui/StandardDeviationGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/soen6011/gui/StandardDeviationGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/soen6011/backend/StandardDeviationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/soen6011/backend/StandardDeviationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/soen6011/gui/StandardDeviationGUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/soen6011/gui/StandardDeviationGUITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,11 +64,15 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.soen6011.backend" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.soen6011.gui" />
       <recent name="org.soen6011" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StandardDeviationGUITest">
+  <component name="RunManager" selected="JUnit.StandardDeviationTest.testCalculateStandardDeviationEmptyArray">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.soen6011.Main" />
       <module name="eternity" />
@@ -124,12 +132,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StandardDeviationTest.testCalculateStandardDeviationEmptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eternity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.soen6011.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.soen6011.backend" />
+      <option name="MAIN_CLASS_NAME" value="org.soen6011.backend.StandardDeviationTest" />
+      <option name="METHOD_NAME" value="testCalculateStandardDeviationEmptyArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StandardDeviationGUITest" />
+        <item itemvalue="JUnit.StandardDeviationTest.testCalculateStandardDeviationEmptyArray" />
         <item itemvalue="JUnit.StandardDeviationTest" />
-        <item itemvalue="JUnit.StandardDeviationTest.testCalculateMean" />
+        <item itemvalue="JUnit.StandardDeviationGUITest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StandardDeviationTest.testCalculateMean" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +170,7 @@
       <workItem from="1720751722350" duration="30000" />
       <workItem from="1721420631307" duration="14710000" />
       <workItem from="1722016073989" duration="39000" />
-      <workItem from="1722386556952" duration="11967000" />
+      <workItem from="1722386556952" duration="13846000" />
     </task>
     <servers />
   </component>
