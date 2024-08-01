@@ -14,7 +14,7 @@ import org.soen6011.backend.StandardDeviation;
 
 public class StandardDeviationGUI {
 
-  private JFrame frame;
+  JFrame frame;
   private JTextField textField;
   private JTextArea textArea;
   private double[] numbers;
