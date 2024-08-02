@@ -6,7 +6,7 @@
 
     <groupId>org.soen6011</groupId>
     <artifactId>eternity</artifactId>
-    <version>2.2.1</version>
+    <version>2.2.2</version>
     <repositories>
         <repository>
             <id>central</id>

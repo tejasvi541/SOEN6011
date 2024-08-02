@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5e395873-86cc-4345-b906-fc7e727a6779" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/soen6011/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/soen6011/gui/StandardDeviationGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/soen6011/gui/StandardDeviationGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/soen6011/backend/StandardDeviationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/soen6011/backend/StandardDeviationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/soen6011/gui/StandardDeviationGUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/soen6011/gui/StandardDeviationGUITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +168,7 @@
       <workItem from="1720751722350" duration="30000" />
       <workItem from="1721420631307" duration="14710000" />
       <workItem from="1722016073989" duration="39000" />
-      <workItem from="1722386556952" duration="13846000" />
+      <workItem from="1722386556952" duration="14807000" />
     </task>
     <servers />
   </component>

@@ -62,6 +62,10 @@ applications.
 - **FR6:** The function must return the standard deviation as a real
   number.
 
+- **FR7:** The user can access the app using GUI.
+- **FR8:** The GUI should maintain history of the calculation till the application is closed or wrong input is fed.
+- **FR9:** The function shall display the array of elements.
+
 # Non-Functional Requirements
 
 - **NFR1:** The function must handle large lists of numbers
@@ -72,6 +76,9 @@ applications.
 
 - **NFR3:** The function must provide error messages for invalid
   inputs.
+
+- **NFR4:** The code must be modular.
+- **NFR5:** The code should be independent of IDEs and tools.
 
 # Assumptions and Dependencies
 
